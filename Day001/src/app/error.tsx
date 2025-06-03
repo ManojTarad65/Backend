@@ -17,3 +17,11 @@ const NotFound = () => {
 };
 
 export default NotFound;
+
+
+// concept 1
+// 1. error.tsx is used for error handling,
+// 2. error.tsx will work only if there any error inside pages
+
+
+

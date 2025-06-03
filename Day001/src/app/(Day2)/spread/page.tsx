@@ -7,7 +7,7 @@ const page = () => {
   return (
     <div>
       {newArray.map((number) => {
-        return <p>{number}</p>;
+        return <p key={number}>{number}</p>;
       })}
     </div>
   );

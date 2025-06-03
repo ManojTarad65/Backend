@@ -1,22 +1,12 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import Main from "./Components/Main";
 
 const page = () => {
-  const [count, setCount] = useState(0);
+
   return (
-    <div>
-      <div>
-        <input
-          type="number"
-          value={count}
-          onChange={(e) => setCount(Number(e.target.value))}
-        />
-        <button>Increment</button>
-      </div>
-      <div>
-        <button>{count}</button>
-      </div>
+    <div> 
+   
       <Main />
     </div>
   );

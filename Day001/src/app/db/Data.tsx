@@ -51,13 +51,3 @@ const colleges: College[] = [
 
 export { colleges };
 
-// type Person = {
-//   name : string,
-//   age : number,
-//   gender : string
-// }
-// const obj : Person = {
-//   name : "Jai Prakash",
-//   age : 22,
-//   gender : "Male"
-// }
