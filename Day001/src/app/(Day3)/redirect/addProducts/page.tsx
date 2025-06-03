@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation'
 const AddProducts = () => {
   const router = useRouter()
 const handleClick = () => {
-    router.push('/redirect/login')
+    router.push('../redirect/login')
 }
   return (
     <div className='h-screen flex  flex-col items-center justify-center bg-amber-300 font-bold text-2xl'>
@@ -18,8 +18,9 @@ const handleClick = () => {
       <form action="" className='flex flex-col gap-2 p-2 rounded-lg'>
         <h1>Nature </h1>
       <h1>Photography </h1>
-        <button onClick={handleClick} type="submit" className='p-2 rounded-lg bg-black text-white cursor-pointer'>Add Product</button>
       </form>
+        <button onClick={handleClick} type="submit" className='p-2 rounded-lg bg-black text-white cursor-pointer'>Add Product</button>
+      
     </div>
   )
 }
