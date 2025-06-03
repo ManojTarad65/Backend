@@ -4,7 +4,7 @@ import Image from 'next/image'
 const page = () => {
   return (
     <div>
-        <Image src="/nature.png" alt="nature" width={500} height={500}  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/>
+        <Image src="/nature.png" alt="nature" width={500} height={500}  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" priority={true}/>
     </div>
   )
 }
