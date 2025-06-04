@@ -11,3 +11,7 @@
 9. loading.tsx in great detail ?
 10. image in great detail ?
 11. Redirect in great detail ?
+12. Middleware in great detail ?
+13. 
+
+
