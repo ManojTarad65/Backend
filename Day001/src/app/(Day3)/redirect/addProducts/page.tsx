@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation'
 const AddProducts = () => {
   const router = useRouter()
 const handleClick = () => {
-    router.push('../redirect/login')
+    router.push('../login')
 }
   return (
     <div className='h-screen flex  flex-col items-center justify-center bg-amber-300 font-bold text-2xl'>

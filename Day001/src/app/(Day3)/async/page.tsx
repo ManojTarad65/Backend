@@ -1,21 +1,3 @@
-// import React from "react";
-
-// const page = () => {
-//   console.log(1);
-//   console.log(2);
-//   console.log(3);
-//   console.log(4);
-//   //   setTimeout(() => {
-//   //     console.log(5);
-//   //   }, 20000);
-//   console.log(6);
-//   console.log(7);
-//   console.log(8);
-//   console.log(9);
-//   return <div>page</div>;
-// };
-
-// export default page;
 
 // concept 1
 
@@ -37,26 +19,27 @@
 // 1. asynchronization : there are so many functions which takes time so async ignores them and continue the next line
 // 2. synchronization :  if there is a function then and it is taking time then it will wait for that function to complete
 
-import { colleges } from "@/app/db/Data";
-import React from "react";
 
-const AsyncFunction = async () => {
-  const collegeData = await colleges;
+import React from 'react'
+
+const AsyncFunction = async() => {
+  console.log(1);
+  console.log(2);
+  console.log(3);
+  console.log(4);
+  await setTimeout(() => {
+    console.log(5);
+  }, 2000);
+  console.log(6);
+  console.log(7);
+  console.log(8);
+  console.log(9);
   return (
-    <div>
-      {collegeData.map((college) => (
-        <div key={college.id}>
-          <img src={college.image} alt="" />
-          <h1>{college.name}</h1>
-          <p>{college.location}</p>
-        </div>
-      ))}
-    </div>
-  );
-};
+    <div className='h-screen flex items-center justify-center bg-red-400 font-bold text-2xl'> Learning Asynchronization</div>
+  )
+}
 
 export default AsyncFunction;
-
 // concept 3
 // 1. if you want to make a function async then you have to use "async" keyword
 // 2. await is used to wait for a function to complete
