@@ -42,6 +42,7 @@ const Header = () => {
         <div onClick={() => router.push("/colleges")}>Colleges</div>
         <div onClick={() => router.push("/contact")}>Contact</div>
         <div onClick={() => router.push("/project")}>Project</div>
+        <div onClick={() => router.push("/user/loginPage")} className="p-2 rounded-lg bg-red-300 text-black cursor-pointer ml-44">Login</div>
       </div>
     </div>
   );

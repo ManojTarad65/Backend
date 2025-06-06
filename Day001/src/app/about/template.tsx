@@ -1,9 +1,10 @@
 import React from "react";
-import Button from "../Components/Button";
+import SideBar from "../Components/SideBar";
+
 const layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div>
-      <Button />
+      <SideBar/>
       {children}
     </div>
   );
