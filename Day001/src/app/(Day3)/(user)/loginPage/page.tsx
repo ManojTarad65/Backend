@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 const LoginPage = () => {
   return (
-    <div className="h-screen flex items-center justify-center bg-red-400 font-bold text-2xl">
+    <div className="h-screen flex items-center justify-center bg-gradient-to-b from-blue-500 to-violet-500 font-bold text-2xl">
       <div className="flex flex-col gap-2 ">
         <h1 className="text-2xl font-bold text-center">Login Page</h1>
         <form action="" className="flex flex-col gap-2 p-2 border border-black rounded-lg">
